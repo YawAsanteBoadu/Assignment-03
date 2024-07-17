@@ -1,0 +1,93 @@
+body{
+    font-family: 'Segoe UI';
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 97%);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+form{
+    box-sizing: border-box;
+    width: 540px;
+    margin: 50px auto;
+    border: 10px solid hsl(0, 0%, 93%);
+    border-radius: 0%;
+    display: grid;
+    padding: 1px solid #ccc;
+    gap: 1.5rem;
+    grid-column: 2;
+}
+
+.topimage{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.Form_Header{
+    text-align: left;
+    font-size: 20pt;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.login_details{
+    border: 2px;
+    border-radius: 20px;
+    display: block;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+.signUp{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+   
+}
+
+.Align_both{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.checkbox_id{
+    color: #01da01;
+    font-weight: 100%;
+}
+
+a{
+    color: #01da01;
+}
+
+.SingIn_Btn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+/* .facebook{
+    display: block;
+    width: auto;
+    height: auto;
+    margin: auto;
+   
+} */
